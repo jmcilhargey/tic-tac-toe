@@ -1,0 +1,102 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url("https://dl.dropboxusercontent.com/u/63260308/Portfolio/Images/noise_light.jpg");
+  color: #646464;
+  text-align: center;
+  height: 100%;
+}
+
+h1 {
+  position: relative;
+  top: 50px;
+  color: #82b8f5;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.pop-up-start,
+.pop-up-end {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: 150px;  
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #fff;  
+  border-radius: 10px;
+  border: 5px solid #fff;  
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: 1;
+  display: none;
+}
+
+.pop-up-end {
+  right: 200px;
+  top: 250px;
+}
+
+.pop-up-start ul,
+.pop-up-end ul{
+  padding: 0;
+  list-style: none;
+}
+
+.heading,
+.result,
+.new-game {
+  margin: 20px;
+}
+
+.cross,
+.naught {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.cross:hover, 
+.naught:hover,
+.new-game:hover {
+  cursor: pointer;
+  color: #9999ff;
+  text-decoration: none;
+}
+
+.clicked {
+  color: #9999ff;
+}
+
+.container {
+  width: 450px;
+  position: relative;
+  top: -125px;
+  background: transparent;
+}
+
+.col-xs-4 {
+  padding: 0 10px;
+}
+
+.tile {
+  width: 125px;
+  height: 125px;
+  margin: 10px 0;
+  border-radius: 25px;
+  background-color: #82b8f5;
+  cursor: pointer;
+}
+
+.tile:hover {
+  opacity: 0.75;
+}
+
+.fa-times {
+  font-size: 115px;
+  padding: 0 15px;
+}
+
+.fa-circle-o {
+  font-size: 95px;
+  font-weight: 600;
+  padding: 15px 20px;
+}
